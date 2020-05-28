@@ -1,0 +1,19 @@
+﻿@model Assignment_3.Models.Houses
+@{
+    ViewBag.Title = "EditHouse";
+}
+
+<h2>Edit House</h2>
+
+<form id="EditHouse" action="/Home/EditHouse_2/@Model.Id" method="post">
+    <label>Area</label><br>
+    <input type="text" name="Area" value="@Model.Area" required><br><br>
+    <label>Address</label><br>
+    <input type="text" name="Address" value="@Model.Address" required><br><br>
+    <label>Marlas</label><br>
+    <input type="number" name="Marlas" value="@Model.Marlas" required><br><br>
+    <label>Price</label><br>
+    <input type="number" name="Price" value="@Model.Price" required><br><br>
+
+    <input type="submit" value="EditHouse">
+</form>
