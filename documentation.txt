@@ -1,1 +1,1 @@
-This repository would contain all of my PUCIT projects and this would be open source so that anyone can easily access it.
+This is my final project of EAD with proper Model View Controller work based on house buying sites with update add and view features.
